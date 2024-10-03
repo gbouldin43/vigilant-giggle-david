@@ -29,9 +29,9 @@ $(document).ready(function () {
         let coinPos = coin.position();
 
         if (playerPos.left < coinPos.left + 20 &&
-            playerPos.left + 30 > coinPos.left &&
+            playerPos.left + 100 > coinPos.left &&
             playerPos.top < coinPos.top + 20 &&
-            playerPos.top + 30 > coinPos.top) {
+            playerPos.top + 150 > coinPos.top) {
             score++;
             $('#score').text(score);
 
